@@ -10,6 +10,7 @@ body {
   }
  
   .box {
+    display: block;
       background: #7fa3eb;
       padding: 20px;
       border-radius: 10px;
@@ -24,4 +25,11 @@ body {
       padding: 10px;
       width: 200px;
   }
- 
+
+  .btn-area{
+    display: flex;
+  }
+
+  .invisible{
+    display: none;
+  }

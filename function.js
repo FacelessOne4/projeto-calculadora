@@ -11,7 +11,7 @@ function media(numero1, numero2){ //com parâmetro com retorno
 //Function com parametro e sem retorno
 saudar("Juquinha");
 
-function { //sem parametro e com retorno
+function mostrarPI() { // sem parâmetro e com retorno
     return Math.PI;
 }
 

@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    <script src="./function.js" defer></script>
+    <script src="./main.js" defer></script>
 </head>
 <body>
     <h1>Calculadora</h1>
@@ -13,10 +13,16 @@
         <input type="number" id="num1" class="estilo-input" placeholder="Primeiro número">
         <input type="number" id="num2" class="estilo-input" placeholder="Segundo número">
  
-        <button id="btnCalcular">Somar</button>
+        <div class="btn-area">
+        <button id="btnSomar">Somar</button>
+        <button id="btnMultiplicar">Multiplicar</button>
+        <button id="btnDividir">Dividir</button>
+        <button id="btnSubtrair">Subtrair</button>
+        <button id="btnLimpar">Limpar</button>
+        </div>
+
     </form>
-    <div class="box">
-    <p>Resultado: </p>
+    <div class="box invisible">
     <p id="resultado"></p>
 </div>
 </body>
